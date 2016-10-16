@@ -1,8 +1,21 @@
-body {
-    background-color: red;
+.header > ul > li > a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
 }
 
-.classes {
-    color: white;
-    border-bottom: dotted 2px white;
+.header > ul > li {
+    list-style: none;
+    display: inline;
+}
+
+.header {
+    height: 50px;
+    background-color: aqua;
+}
+
+.text {
+    font-family: sans-serif;
+}
+
+.text > h1 + p{
+    color: gray;
 }
